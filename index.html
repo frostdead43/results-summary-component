@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Results Summary Component</title>
+  <link rel="stylesheet" href="assets/css/summary.css">
+  <script src="assets/js/summary.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="header-hero">
+      <h5>Your Result</h5>
+      <div class="header-point">
+        <h2 id="heroScore">76</h2>
+        <span id="heroLimited">of 100</span>
+      </div>
+      <h3 id="heroSubtitle">Great</h3>
+      <p id="heroFeedback">Your performance exceed 65% of the people conducting the test here!</p>
+    </div>
+    <div class="title">
+      <h5>Summary</h5>
+      <div class="summary-list" id="summaryList">
+         <div class="summary-item">
+          <h6>Reaction</h6>
+          <input type="text" value="80" max="100" id="reactionİnput">
+          <span>/ 100</span>
+         </div>
+         <div class="summary-item">
+          <h6>Memory</h6>
+          <input type="text" value="80" id="memoryİnput">
+          <span>/ 100</span>
+         </div>
+         <div class="summary-item">
+          <h6>Verbal</h6>
+          <input type="text" value="80" id="verbalİnput">
+          <span>/ 100</span>
+         </div>
+         <div class="summary-item">
+          <h6>Visual</h6>
+          <input type="text" value="80" id="visualİnput">
+          <span>/ 100</span>
+         </div>
+      </div>
+      <a href="#" id="btnSubmit" class="btn">Continue</a>
+    </div>
+  </div>
+  
+</body>
+</html>
